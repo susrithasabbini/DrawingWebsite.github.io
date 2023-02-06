@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/drawing.png">
+    <title>Drawing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/start/jquery-ui.css">
+
+</head>
+<body>
+    
+    <div id="header">Draw Here 👇🏻</div>
+
+    <div class="inputContainer">
+        <div class="input" id="colorInput">
+            <input type="color" list id="paintColor">
+        </div>
+        <div class="input" id="thicknessInput">
+            <div id="circle">
+
+            </div>
+        </div>
+        <div class="input">
+            <div id="slider">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <canvas id="paint" width="1000px" height="520px">
+
+        </canvas>
+    </div>
+
+    <div class="inputContainer2">
+        <div class="input2">
+            <span id="erase" class="button">Erase</span>
+        </div>
+        <div class="input2">
+            <span id="save" class="button">Save</span>
+        </div>
+        <div class="input2">
+            <span id="reset" class="button">Reset</span>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
